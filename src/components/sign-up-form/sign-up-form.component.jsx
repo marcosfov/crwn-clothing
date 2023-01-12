@@ -27,7 +27,6 @@ export default function SignUpForm() {
 
         try {
             const { user } = await createAuthUserWithEmailAndPassword(email, password)
-            console.log(user)
 
             await createUserDocumentFromAuth(user, { displayName })
             resetFormFields()
