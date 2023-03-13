@@ -10,7 +10,7 @@ export default function CartDropdown() {
     const { cartItems } = useContext(CartContext)
     const navigate = useNavigate()
 
-    const goToCheckoutHandler = () => navigate('/checkout')
+    const goToCheckoutHandler = () => { navigate('/checkout') }
 
     return (
         <div className="cart-dropdown-container">
