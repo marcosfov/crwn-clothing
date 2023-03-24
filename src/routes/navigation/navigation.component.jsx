@@ -1,6 +1,6 @@
 import { Link, Outlet } from "react-router-dom"
 import { ReactComponent as CrwLogo } from '../../assets/crown.svg'
-import './navigation.styles.scss'
+import { NavigationContainer, LogoContainer, NavLinks, NavLink } from './navigation.styles.jsx'
 
 import { useContext } from "react"
 import { UserContext } from "../../contexts/user.context"
@@ -15,29 +15,29 @@ export default function Navigation() {
 
   return (
     <>
-      <div className="navigation">
-        <Link className="logo-container" to='/'>
+      <NavigationContainer>
+        <LogoContainer to='/'>
           <CrwLogo className='logo' />
-        </Link>
+        </LogoContainer>
 
-        <div className="nav-links-container">
-          <Link className="nav-link" to='/shop'>
+        <NavLinks>
+          <NavLink to='/shop'>
             SHOP
-          </Link>
+          </NavLink>
 
           {currentUser ? (
-            <span className="nav-link" onClick={signOutUser}> SIGN OUT</span>
+            <NavLink as='span' onClick={signOutUser}> SIGN OUT</NavLink>
           ) : (
-            <Link className="nav-link" to='auth'>
+            <NavLink to='auth'>
               SIGN IN
-            </Link>
+            </NavLink>
           )}
 
           <CartIcon />
-        </div>
+        </NavLinks>
 
         {isCartOpen && <CartDropdown />}
-      </div>
+      </NavigationContainer>
 
       <Outlet />
     </>
