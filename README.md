@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Projeto Ecommerce Crown Clothing 👑
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Um projeto de estudos de um ecommerce moderno de roupa, criando uma experiência de usuário dinâmica e interativa, que permite que os usuários naveguem pelo site de forma rápida e eficiente. O propósito desse projeto é aplicar é demonstrar o meu conhecimento em React, solidificar conceitos e fazer o projeto evoluir constantemente, por meio de melhorias e atualizações constantes. 
 
-## Available Scripts
+## Índice
 
-In the project directory, you can run:
+- <a href="#funcionalidades">Funcionalidades do Projeto</a>
+- <a href="#demonstracao">Demonstração</a>
+- <a href="#rodar">Como rodar este projeto?</a>
+- <a href="#tecnologias">Tecnologias Utilizadas</a>
+- <a href="#passos">Próximas Atualizações</a>
 
-### `npm start`
+<div id='funcionalidades'/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📱Funcionalidades do Projeto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [x] Cadastro de Usuários
+- [x] Login de Usuários 
+- [x] Login de Usuários Google
+- [x] Navegação Interativa no site
+- [x] Visualização de roupas por categorias
+- [x] Funcionalidade de adição de itens ao carrinho de compras
+- [x] Página de Checkout com os itens adicionados
 
-### `npm test`
+</div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<div id='demonstracao'/>
 
-### `npm run build`
+## 👀Demonstração
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Link de Demonstração](https://crownecommerce.netlify.app)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+</div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<div id='rodar'/>
 
-### `npm run eject`
+## ⚙️Como rodar este projeto?
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# Clone este repositório
+$ git clone linkrepo
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Acesse a pasta do projeto no seu terminal
+$ cd crwn-clothing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Instale as dependências
+$ npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Execute a aplicação
+$ npm start
 
-## Learn More
+# A aplicação será iniciada na porta 3000, acesse pelo navegador: http://localhost:3000
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+</div>
 
-### Code Splitting
+<div id='tecnologias'/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 👨‍💻Tecnologias Utilizadas
 
-### Analyzing the Bundle Size
+- Versão 1.0
+  1. React
+  2. HTML
+  3. CSS/SASS
+  4. JAVASCRIPT
+  5. FIREBASE
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Versão 1.1
+  1. STYLED COMPONENTS
+  2. REACT CONTEXT 
 
-### Making a Progressive Web App
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<div id='passos'>
 
-### Advanced Configuration
+## 🚀Próximas Atualizações
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- [ ] Ajuste de responsividade do site
+- [ ] Implementação de Typescript
+- [ ] Implementação de Reducer
+- [ ] Implementação de Redux
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</div>
