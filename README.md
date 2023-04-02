@@ -78,7 +78,7 @@ $ npm start
 
 - [ ] Ajuste de responsividade do site
 - [ ] Implementação de Typescript
-- [ ] Implementação de Reducer
+- [x] Implementação de Reducer
 - [ ] Implementação de Redux
 
 </div>
