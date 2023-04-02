@@ -19,6 +19,11 @@ export const Body = styled.div`
   background-color: white;
   opacity: 0.7;
   position: absolute;
+  max-width: 180px;
+
+  @media (max-width: 768px) {
+    padding: 8px 4px;
+  }
 
   h2 {
     font-weight: bold;
@@ -26,11 +31,19 @@ export const Body = styled.div`
     font-size: 22px;
     color: #4a4a4a;
     text-transform: uppercase;
+    
+    @media (max-width: 768px) {
+      font-size: 18px;
+    }
   }
 
   p {
     font-weight: lighter;
     font-size: 16px;
+    
+    @media (max-width: 500px) {
+      font-size: 14px;
+    }
   }
 `
 export const DirectoryItemContainer = styled.div`
