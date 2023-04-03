@@ -22,14 +22,26 @@ export const ImageItem = styled.img`
 
 export const NameCheckoutItem = styled.span`
   width: 23%;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
 `
 export const QuantityCheckoutItem = styled.span`
   width: 23%;
   display: flex;
   align-items: flex-end;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
 `
 export const PriceCheckoutItem = styled.span`
   width: 23%;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
 `
 export const Arrow = styled.div`
   cursor: pointer;
@@ -41,4 +53,8 @@ export const Value = styled.span`
 export const RemoveButton = styled.div`
   padding-left: 12px;
   cursor: pointer;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
 `

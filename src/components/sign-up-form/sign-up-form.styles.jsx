@@ -5,7 +5,20 @@ export const SignUpContainer = styled.div`
   flex-direction: column;
   width: 380px;
 
+  
   h2 {
-      margin: 10px 0;
+    margin: 10px 0;
+  }
+
+  @media (max-width: 1000px) {
+    width: 100%;
+
+    h2 {
+      font-size: 16px;
+    }
+
+    span {
+      14px
+    }
   }
 `

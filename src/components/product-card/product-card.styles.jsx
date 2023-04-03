@@ -18,6 +18,10 @@ export const ProdutcCardContainer = styled.div`
     position: absolute;
     top: 255px;
     display: none;
+  
+    @media (max-width: 800px) {
+      display: flex;
+    }
   }
 
   &:hover {
@@ -28,6 +32,7 @@ export const ProdutcCardContainer = styled.div`
       display: flex;
   }
   }
+
 `
 
 export const ImageCard = styled.img`
