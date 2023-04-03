@@ -1,6 +1,6 @@
 # Projeto Ecommerce Crown Clothing 👑
 
-Um projeto de estudos de um ecommerce moderno de roupa, criando uma experiência de usuário dinâmica e interativa, que permite que os usuários naveguem pelo site de forma rápida e eficiente. O propósito desse projeto é aplicar é demonstrar o meu conhecimento em React, solidificar conceitos e fazer o projeto evoluir constantemente, por meio de melhorias e atualizações constantes. 
+Um projeto de estudos de um ecommerce moderno de roupa, criando uma experiência de usuário dinâmica e interativa, que permite que os usuários naveguem pelo site de forma rápida e eficiente. O propósito desse projeto é aplicar é demonstrar o meu conhecimento em React, solidificar conceitos e fazer o projeto evoluir constantemente, por meio de melhorias e atualizações constantes.
 
 ## Índice
 
@@ -15,7 +15,7 @@ Um projeto de estudos de um ecommerce moderno de roupa, criando uma experiência
 ## 📱Funcionalidades do Projeto
 
 - [x] Cadastro de Usuários
-- [x] Login de Usuários 
+- [x] Login de Usuários
 - [x] Login de Usuários Google
 - [x] Navegação Interativa no site
 - [x] Visualização de roupas por categorias
@@ -60,6 +60,7 @@ $ npm start
 ## 👨‍💻Tecnologias Utilizadas
 
 - Versão 1.0
+
   1. React
   2. HTML
   3. CSS/SASS
@@ -68,7 +69,7 @@ $ npm start
 
 - Versão 1.1
   1. STYLED COMPONENTS
-  2. REACT CONTEXT 
+  2. REACT CONTEXT
 
 </div>
 
@@ -76,7 +77,7 @@ $ npm start
 
 ## 🚀Próximas Atualizações
 
-- [ ] Ajuste de responsividade do site
+- [x] Ajuste de responsividade do site
 - [ ] Implementação de Typescript
 - [x] Implementação de Reducer
 - [ ] Implementação de Redux
