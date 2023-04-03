@@ -26,6 +26,7 @@ export const BaseButton = styled.button`
 
   @media (max-width: 500px) {
     min-width: 150px;
+    padding: 0 20px 0 20px;
   }
 `
 
