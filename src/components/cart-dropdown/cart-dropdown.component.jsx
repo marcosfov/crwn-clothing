@@ -7,10 +7,13 @@ import { CartDropdownContainer, CartItems, EmptyMessage } from './cart-dropdown.
 
 
 export default function CartDropdown() {
-  const { cartItems } = useContext(CartContext)
+  const { cartItems, setIsCartOpen } = useContext(CartContext)
   const navigate = useNavigate()
 
-  const goToCheckoutHandler = () => { navigate('/checkout') }
+  const goToCheckoutHandler = () => {
+    setIsCartOpen(false)
+    navigate('/checkout')
+  }
 
   return (
     <CartDropdownContainer>
