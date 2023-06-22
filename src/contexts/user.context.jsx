@@ -27,7 +27,6 @@ function userReducer(state, action) {
     default:
       throw new Error(`Unhandled type ${type} in userReducer`)
   }
-
 }
 
 export const UserProvider = ({ children }) => {
