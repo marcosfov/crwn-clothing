@@ -9,7 +9,7 @@ export default function DirectoryItem({ category }) {
 
   return (
     <DirectoryItemContainer onClick={onNavigateHandler} className='product-card'>
-      <BackgroundImage imageUrl={imageUrl} />
+      <BackgroundImage imageUrl={imageUrl} className='background-product' />
       <Body>
         <h2>{title}</h2>
         <p>Shop Now</p>
