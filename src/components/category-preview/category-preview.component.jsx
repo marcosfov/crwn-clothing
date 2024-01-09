@@ -4,7 +4,7 @@ import { Preview, CategoryPreviewContainer, CategoryPreviewTitle } from './categ
 
 export default function CategoryPreview({ title, products }) {
   return (
-    <CategoryPreviewContainer>
+    <CategoryPreviewContainer className='card-produto'>
       <h2>
         <CategoryPreviewTitle to={title}>{title.toUpperCase()}</CategoryPreviewTitle>
       </h2>
