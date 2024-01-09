@@ -8,7 +8,7 @@ export default function DirectoryItem({ category }) {
   const onNavigateHandler = () => navigate(route)
 
   return (
-    <DirectoryItemContainer onClick={onNavigateHandler} className='product-card'>
+    <DirectoryItemContainer onClick={onNavigateHandler} className='product-card'id='id_card' >
       <BackgroundImage imageUrl={imageUrl} className='background-product' />
       <Body>
         <h2>{title}</h2>
